@@ -1,7 +1,7 @@
 ---
 lab:
   title: 使用预生成的文档智能模型
-  module: Module 11 - Reading Text in Images and Documents
+  module: Module 6 - Document Intelligence
 ---
 
 # 使用预生成的文档智能模型
@@ -15,13 +15,13 @@ lab:
 1. 在一个新的浏览器标签页中，打开 Azure 门户 ([https://portal.azure.com](https://portal.azure.com?azure-portal=true))，然后使用与 Azure 订阅关联的 Microsoft 帐户登录。
 1. 在 Azure 门户主页上，导航到顶部搜索框并输入**文档智能**，然后按 **Enter**。
 1. 在“**文档智能**”页中，选择“**创建**”。
-1. 在**创建文档智能**页面上，使用以下步骤配置资源：
+1. 在**创建文档智能**页面上，使用以下内容配置资源：
     - **订阅**：Azure 订阅。
-    - **资源组**：选择或创建具有唯一名称（如 *DocIntelligenceResources*）的资源组。
+    - **资源组：** 选择或创建具有唯一名称（如 *DocIntelligenceResources*）的资源组。
     - **区域**：选择附近的区域。
-    - **名称**：输入全局唯一名称
-    - **定价层**：选择**免费 F0**（如果没有可用免费层，请选择**标准 S0。**
-1. 然后选择**查看 + 创建**，然后选择**创建**。 等待 Azure 创建 Azure AI 文档智能资源。
+    - **名称：** 输入全局唯一的名称。
+    - **定价层级：** 选择**免费 F0**（如果没有可用的免费层级，请选择**标准 S0**）。
+1. 然后选择“**查看 + 创建**”，选择“**创建**”。 等待 Azure 创建 Azure AI 文档智能资源。
 1. 部署完成后，选择**转到资源**。 使此页面保持打开状态，以供本练习的其余部分使用。
 
 ## 使用“读取”模型
@@ -30,7 +30,7 @@ lab:
 
 1. 打开新的浏览器选项卡并转到 **Azure AI 文档智能工作室**[https://documentintelligence.ai.azure.com/studio](https://documentintelligence.ai.azure.com/studio)。
 1. 在**文档分析**下，选择**读取**磁贴。
-1. 如果系统要求你登录帐户，请使用 Azure 凭据。
+1. 如果系统要求你登录帐户，请使用 Azure 凭证。
 1. 如果系统询问要使用哪个 Azure AI 文档智能资源，请选择创建 Azure AI 文档智能资源时使用的订阅和资源名称。
 1. 在左侧文档列表中，选择 **read-german.png**。
 
@@ -47,10 +47,10 @@ lab:
 
 现在，让我们探索使用 Azure 文档智能服务 SDK 的应用。 你将使用 Visual Studio Code 开发应用。 应用程序的代码文件已在 GitHub repo 中提供。
 
-> **提示：** 如果您已经克隆了 **mslearn-ai-document-intelligence** repo，请在 Visual Studio 代码中打开它。 否则，请按照以下步骤将其克隆到开发环境中。
+> **提示：** 如果您已经克隆了 **mslearn-ai-document-intelligence repo**，请在 Visual Studio Code 中打开它。 否则，请按照以下步骤将其克隆到开发环境中。
 
 1. 启动 Visual Studio Code。
-1. 打开面板 (SHIFT+CTRL+P) 并运行“**Git: 克隆**”命令，以将 `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` 存储库克隆到本地文件夹（任意文件夹均可）。
+1. 打开面板 (SHIFT+CTRL+P) 并运行“**Git：克隆**”命令，以将 `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` 存储库克隆到本地文件夹（任意文件夹均可）。
 1. 克隆存储库后，在 Visual Studio Code 中打开文件夹。
 1. 等待其他文件安装完毕，以支持存储库中的 C# 代码项目。
 
@@ -212,8 +212,8 @@ lab:
 
 ## 清理
 
-如果您已完成 Azure 资源的使用，请记住在 [Azure 门户](https://portal.azure.com/?azure-portal=true)中删除该资源，以免产生更多费用。
+如果您已完成 Azure 资源的使用，请记住在 [Azure 门户](https://portal.azure.com/?azure-portal=true)中删除该资源，以避免进一步收费。
 
-## 详细信息
+## 更多信息
 
-有关文档智能服务的详细信息，请参阅 [文档智能文档](https://learn.microsoft.com/azure/ai-services/document-intelligence/?azure-portal=true)。
+有关文档智能服务的更多信息，请参阅[文档智能文档](https://learn.microsoft.com/azure/ai-services/document-intelligence/?azure-portal=true)。

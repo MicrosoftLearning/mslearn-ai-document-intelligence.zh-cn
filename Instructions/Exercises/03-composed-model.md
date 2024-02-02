@@ -44,11 +44,11 @@ lab:
 1. 在“我的项目”**** 下，选择“+ 创建项目”****。
 1. 在“项目名称”文本框中，键入“1040 表单”，然后选择“继续”************。
 1. 在“配置服务资源”页面的“订阅”下拉列表中，选择你的 Azure 订阅********。
-1. 在“资源组”**** 下拉列表中，选择已为你创建的 **DocumentIntelligenceResources&lt;xxxx&gt**。
-1. 在“Azure AI 文档智能或 Azure AI 服务资源”**** 下拉列表中，选择 **DocumentIntelligence&lt;xxxx&gt**
+1. 在“资源组”下拉列表中，选择已为你创建的 DocumentIntelligenceResources&lt;xxxx&gt;。********
+1. 在“Azure AI 文档智能或 Azure AI 服务资源”下拉列表中，选择“DocumentIntelligence&lt;xxxx&gt;********。
 1. 在“API 版本”下拉列表中，确保已选中“2023-10-31-preview”，然后选择“继续”。************
 1. 在“连接训练数据源”页面上的“订阅”下拉列表中，选择你的 Azure 订阅********。
-1. 在“资源组”**** 下拉列表中，选择 **DocumentIntelligenceResources&lt;xxxx&gt**。
+1. 在“资源组”下拉列表中，选择“DocumentIntelligenceResources&lt;xxxx&gt;”********。
 1. 在“存储帐户”下拉列表中，选择列出的唯一存储帐户****。 如果你的订阅中有多个存储帐户，请选择以 docintelstorage** 开头的存储帐户
 1. 在“Blob 容器”下拉列表中，选择“1040examples”，然后选择“继续”************。
 1. 在“查看和创建”页上选择“创建项目”********。
@@ -91,11 +91,11 @@ lab:
 1. 在“我的项目”**** 下，选择“+ 创建项目”****。
 1. 在“项目名称”文本框中，键入“1099 表单”，然后选择“继续”************。
 1. 在“配置服务资源”页面的“订阅”下拉列表中，选择你的 Azure 订阅********。
-1. 在“资源组”**** 下拉列表中，选择 **DocumentIntelligenceResources&lt;xxxx&gt**。
-1. 在“Azure AI 文档智能或 Azure AI 服务资源”**** 下拉列表中，选择 **DocumentIntelligence&lt;xxxx&gt**
+1. 在“资源组”下拉列表中，选择“DocumentIntelligenceResources&lt;xxxx&gt;”********。
+1. 在“Azure AI 文档智能或 Azure AI 服务资源”下拉列表中，选择“DocumentIntelligence&lt;xxxx&gt;********。
 1. 在“API 版本”下拉列表中，确保已选中“20223-10-31-preview”，然后选择“继续”************。
 1. 在“连接训练数据源”页面上的“订阅”下拉列表中，选择你的 Azure 订阅。********
-1. 在“资源组”**** 下拉列表中，选择 **DocumentIntelligenceResources&lt;xxxx&gt**。
+1. 在“资源组”下拉列表中，选择“DocumentIntelligenceResources&lt;xxxx&gt;”********。
 1. 在“存储帐户”下拉列表中，选择列出的唯一存储帐户****。
 1. 在“Blob 容器”下拉列表中，选择“1099examples”，然后选择“继续”************。
 1. 在“查看和创建”页上选择“创建项目”********。
@@ -144,7 +144,7 @@ lab:
 1. 在 Azure AI 文档智能工作室中，选择“测试”页面，从下拉列表中选择“TaxFormsModel”。********
 1. 选择“浏览文件”****，然后浏览到你克隆存储库的位置。
 1. 选择 03-composed-model/trainingdata/TestDoc/f1040_7.pdf****，然后选择“打开”。****
-1. 选择“运行分析”。**** Azure AI 文档智能使用组合模型分析表单。
+1. 选择“运行分析”。 Azure AI 文档智能使用组合模型分析表单。
 1. 你分析的文档是 1040 税务表的一个示例。 检查 DocType 属性以查看是否使用了正确的自定义模型****。 还要检查模型标识的 FirstName、LastName、City 和 State 值****************。
 
 ## 清理资源

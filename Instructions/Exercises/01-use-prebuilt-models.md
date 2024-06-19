@@ -32,14 +32,15 @@ lab:
 1. 在**文档分析**下，选择**读取**磁贴。
 1. 如果系统要求你登录帐户，请使用 Azure 凭证。
 1. 如果系统询问要使用哪个 Azure AI 文档智能资源，请选择创建 Azure AI 文档智能资源时使用的订阅和资源名称。
-1. 在左侧文档列表中，选择 **read-german.png**。
+1. 在左侧文档列表中，选择 read-german.pdf****。
 
     ![显示 Azure AI 文档智能工作室中的“读取”页面的屏幕截图。](../media/read-german-sample.png#lightbox)
 
+1. 在左上角，选择“分析选项”，在“分析选项”窗格中启用“语言”复选框（“可选检测”下），然后单击“保存”********************。 
 1. 在左上角，选择**运行分析**。
 1. 分析完成后，从图像中提取的文本将显示在**内容**选项卡中的右侧。查看此文本并将其与原始图像中的文本进行比较，以确保准确性。
 1. 选择**结果**选项卡。此选项卡显示提取的 JSON 代码。 
-1. 滚动到**结果**选项卡中 JSON 代码的底部。请注意，读取模型检测到每个跨度的语言。 大多数跨度采用德语（语言代码为 `de`），但最后一个跨度采用英语（语言代码为 `en`）。
+1. 滚动到**结果**选项卡中 JSON 代码的底部。请注意，读取模型检测到每个跨度的语言。 大多数跨度采用德语（语言代码 `de`），但你可在跨度中找到其他语言代码（例如最后一个跨度中的英语 - 语言代码 `en`）。
 
     ![屏幕截图显示 Azure AI 文档智能工作室中读取模型中结果的两个范围的语言检测。](../media/language-detection.png#lightbox)
 
@@ -137,7 +138,6 @@ lab:
 
     ```csharp
     AnalyzeDocumentOperation operation = await client.AnalyzeDocumentFromUriAsync(WaitUntil.Completed, "prebuilt-invoice", fileUri);
-    await operation.WaitForCompletionAsync();
     ```
 
     **Python**
@@ -214,6 +214,6 @@ lab:
 
 如果您已完成 Azure 资源的使用，请记住在 [Azure 门户](https://portal.azure.com/?azure-portal=true)中删除该资源，以避免进一步收费。
 
-## 更多信息
+## 详细信息
 
 有关文档智能服务的更多信息，请参阅[文档智能文档](https://learn.microsoft.com/azure/ai-services/document-intelligence/?azure-portal=true)。

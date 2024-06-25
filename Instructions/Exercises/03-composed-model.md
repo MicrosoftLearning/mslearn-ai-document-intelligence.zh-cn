@@ -16,6 +16,8 @@ lab:
 1. 打开面板 (SHIFT+CTRL+P) 并运行“**Git：克隆**”命令，以将 `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` 存储库克隆到本地文件夹（任意文件夹均可）。
 1. 克隆存储库后，在 Visual Studio Code 中打开文件夹。
 
+    > **注意**：如果 Visual Studio Code 显示一条弹出消息，提示你信任打开的代码，请单击弹出窗口中的“是，我信任该作者”选项****。
+    
     > **注意**：如果系统提示你添加生成和调试所需的资产，请选择**以后再说**。 如果 Visual Studio Code 中存在任何其他弹出窗口，你可以放心地将其消除。
 
 1. 展开左窗格中的“Labfiles”**** 文件夹，然后右键单击 03-composed-model**** 目录。 选择“在集成终端中打开”选项，并执行以下脚本：

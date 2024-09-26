@@ -126,9 +126,10 @@ lab:
         - 选择“*继续*”。
     - 选择“*创建项目*”
 
-1. 创建项目后，选择训练来**训练**模型。 使用以下配置：
+1. 创建项目后，选择屏幕右上角的“**训练**”以训练模型。 使用以下配置：
     - **模型 ID：***提供一个全局唯一的名称（下一步将需要模型 ID 名称）。* 
     - **构建模式：** 模板。
+1. 选择“**转到模型**”。
 1. 训练可能需要一些时间。 完成后，你将看到通知。
 
 ## 测试自定义文档智能模型
@@ -144,7 +145,7 @@ lab:
     **Python**：
 
     ```powershell
-    pip install azure-ai-formrecognizer==3.3.0
+    pip install azure-ai-formrecognizer==3.3.3
     ```
 
 1. 在 Visual Studio Code 中，在 **Labfiles/02-custom-document-intelligence** 文件夹中，选择你正在使用的语言。 用以下值编辑配置文件（**appsettings.json** 或 **.env**，取决于你的语言偏好）：

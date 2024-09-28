@@ -14,7 +14,7 @@ lab:
 
 1. 在一个新的浏览器标签页中，打开 Azure 门户 ([https://portal.azure.com](https://portal.azure.com?azure-portal=true))，然后使用与 Azure 订阅关联的 Microsoft 帐户登录。
 1. 在 Azure 门户主页上，导航到顶部搜索框并输入**文档智能**，然后按 **Enter**。
-1. 在“**文档智能**”页中，选择“**创建**”。
+1. 在“**文档智能**”页中，选择“**创建文档智能**”。
 1. 在**创建文档智能**页面上，使用以下内容配置资源：
     - **订阅**：Azure 订阅。
     - **资源组：** 选择或创建具有唯一名称（如 *DocIntelligenceResources*）的资源组。
@@ -81,7 +81,7 @@ lab:
     **Python**：
 
     ```powershell
-    pip install azure-ai-formrecognizer==3.3.0
+    pip install azure-ai-formrecognizer==3.3.3
     ```
 
 ## 添加代码以使用 Azure 文档智能服务

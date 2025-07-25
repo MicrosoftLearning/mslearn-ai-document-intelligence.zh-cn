@@ -1,10 +1,1 @@
-#README
-
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
-# mslearn-document-intelligence
-Azure AI 文档智能模块的实验室文件
+> 注意****：此存储库正在存档，不再维护。 请访问[开发 AI 信息提取解决方案](https://learn.microsoft.com/training/paths/ai-extract-information/)学习路径和[关联的实验室存储库](https://github.com/MicrosoftLearning/mslearn-ai-information-extraction)，或 [Azure AI Foundry 文档](https://learn.microsoft.com/azure/ai-foundry/)
